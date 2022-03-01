@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-supermindsideationap-dev-222613-authRole",
+      "UnauthRoleArn": "arn:aws:iam::062943963762:role/amplify-supermindsideationap-dev-222613-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::062943963762:role/amplify-supermindsideationap-dev-222613-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-supermindsideationap-dev-222613-deployment",
+      "UnauthRoleName": "amplify-supermindsideationap-dev-222613-unauthRole",
+      "StackName": "amplify-supermindsideationap-dev-222613",
+      "StackId": "arn:aws:cloudformation:us-east-1:062943963762:stack/amplify-supermindsideationap-dev-222613/bf760a10-66c4-11ec-957d-1241eaf96d0b",
+      "AmplifyAppId": "dotagkbvekmg1"
+    },
+    "categories": {
+      "auth": {
+        "supermindsideationap864fb87d": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dotagkbvekmg1",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "completionFunction": {
+          "deploymentBucketName": "amplify-supermindsideationap-dev-222613-deployment",
+          "s3Key": "amplify-builds/completionFunction-6468746e2b735334394f-build.zip"
+        }
+      }
+    }
+  }
+}

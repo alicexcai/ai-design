@@ -1,0 +1,33 @@
+.responses {
+  height: 100%;
+  width: 100%;
+  padding: 48px;
+  overflow: overlay;
+}
+
+.responses-title-container {
+  width: 100%;
+  padding: 24px;
+  background: var(--tertiary-accent-color);
+  border-radius: 4px;
+  margin-bottom: 24px;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.responses-title-container h1 {
+  font-size: 18px;
+  color: var(--primary-text-color);
+}
+
+@media only screen and (max-width: 834px) {
+  .responses {
+    padding: 48px 12px;
+  }
+  .responses-title-container {
+    padding: 12px;
+  }
+  .responses-title-container h1 {
+    font-size: 18px;
+  }
+}

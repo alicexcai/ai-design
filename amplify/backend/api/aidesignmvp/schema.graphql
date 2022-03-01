@@ -1,0 +1,15 @@
+type Response @model {
+  id: ID!
+  userId: ID!
+  problem: String!
+  groupify: String!
+  cognify: String!
+  technify: String!
+  temperature: Float!
+  date: String!
+  response: String!
+  saved: Boolean!
+  liked: Boolean!
+  disliked: Boolean!
+  memo: String
+}

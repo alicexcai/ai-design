@@ -1,0 +1,1 @@
+# superminds-ideation-app

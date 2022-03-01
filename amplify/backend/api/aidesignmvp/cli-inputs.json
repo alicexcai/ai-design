@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "aidesignmvp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/alicecai/Desktop/AIDesign/AIDesign_mvp/amplify/backend/api/aidesignmvp/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}

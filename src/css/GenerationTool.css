@@ -1,0 +1,110 @@
+@import url("./_variables.css");
+
+.gentool {
+  position: relative;
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+  overflow: overlay;
+}
+
+.gentool-section {
+  width: 100%;
+  margin-top: 36px;
+}
+
+.gentool-section.loading {
+  display: grid;
+  place-items: center;
+}
+
+.gentool-section.error {
+  padding-bottom: 36px;
+}
+
+.gentool-section.error span {
+  color: var(--primary-accent-color);
+  font-weight: 800;
+}
+
+.gentool-section-heading {
+  display: flex;
+  color: var(--primary-text-color);
+  align-items: center;
+}
+
+.gentool-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 12px;
+}
+
+.gentool-slider-group,
+.gentool-dropdown-group {
+  margin-top: 24px;
+}
+
+/* Custom dropdown styling */
+.gentool-dropdown-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gentool-dropdown-label {
+  color: var(--primary-text-color);
+  font-size: 18px;
+}
+
+.gentool-panel-icon {
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  color: #ffffff;
+  position: absolute;
+  transition: all 250ms ease;
+  padding: 6px;
+}
+
+.gentool-panel-icon.close {
+  top: 0px;
+  right: 0px;
+  border-radius: 0 4px 0 4px;
+}
+
+.gentool-panel-icon.open {
+  background-color: var(--sidebar-bg-color);
+  border-radius: 0 4px 4px 0;
+  top: 0px;
+  left: 0px;
+}
+
+.gentool-panel-icon.open:hover,
+.gentool-panel-icon.close:hover {
+  background-color: var(--primary-accent-color);
+}
+
+@media only screen and (max-width: 834px) {
+  .gentool {
+    padding: 0 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gentool-title {
+    font-size: 18px;
+  }
+  .gentool-dropdown-label {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .gentool-dropdown-group > div {
+    margin-left: 12px;
+  }
+}

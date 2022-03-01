@@ -1,0 +1,21 @@
+:root {
+  /* Color Palette from https://colorhunt.co/palette/041c3204293a064663ecb365 */
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #eeeef1;
+  --sidebar-bg-color: #ffffff;
+  --primary-accent-color: #062542;
+  --secondary-accent-color: #062542;
+  --tertiary-accent-color: #ffffff;
+  --primary-text-color: #000000;
+  --primary-border-color: #ffffff;
+  /* --test: #064663; */
+
+  /* Variables */
+  --header-height: 80px;
+}
+
+@media only screen and (max-width: 834px) {
+  :root {
+    --header-height: 65px;
+  }
+}

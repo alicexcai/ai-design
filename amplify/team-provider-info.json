@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-aidesignmvp-dev-174508-authRole",
+      "UnauthRoleArn": "arn:aws:iam::841009426293:role/amplify-aidesignmvp-dev-174508-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::841009426293:role/amplify-aidesignmvp-dev-174508-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-aidesignmvp-dev-174508-deployment",
+      "UnauthRoleName": "amplify-aidesignmvp-dev-174508-unauthRole",
+      "StackName": "amplify-aidesignmvp-dev-174508",
+      "StackId": "arn:aws:cloudformation:us-east-1:841009426293:stack/amplify-aidesignmvp-dev-174508/15a2d3f0-98e8-11ec-8f08-0e1e3357a839",
+      "AmplifyAppId": "d3pvmaua91ctbw"
+    },
+    "categories": {
+      "auth": {
+        "aidesignmvp071ffe80": {}
+      }
+    }
+  }
+}

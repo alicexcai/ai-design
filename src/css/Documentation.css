@@ -1,0 +1,58 @@
+@import url("./_variables.css");
+
+.doc {
+  position: relative;
+  height: calc(100vh - var(--header-height));
+  background-color: var(--secondary-bg-color);
+  overflow: overlay;
+  padding: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.doc-wrapper {
+  max-width: 800px;
+  display: flex;
+}
+
+.doc-sidebar-wrapper {
+  width: fit-content;
+  margin-right: 48px;
+  position: sticky;
+  top: 0;
+}
+
+.doc-sidebar-wrapper span {
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: var(--primary-text-color);
+  transition: all 250ms ease;
+}
+
+.doc-sidebar-wrapper span:hover {
+  color: var(--primary-accent-color);
+}
+
+.doc-main {
+  flex: 1;
+}
+
+.doc-sidebar-wrapper,
+.doc-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.doc-paragraph-container {
+  padding-bottom: 36px;
+}
+
+.doc-paragraph-container h2 {
+  margin-bottom: 12px;
+  color: var(--primary-accent-color);
+}
+
+.doc-paragraph-container p {
+  color: var(--primary-text-color);
+}
